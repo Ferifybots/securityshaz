@@ -1,6 +1,6 @@
 module.exports = {
-    defaultPrefix: 'f/',
-    ownerID: '627168386199191553',
+    defaultPrefix: 'لێرەش هەمان پریفێکس',
+    ownerID: 'لێرە ئایدی خۆت دابنێ',
     _limits: 'The following are defaults.',
     adminCanChangeLimits: true,
     limits: {
