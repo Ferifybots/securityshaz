@@ -54,28 +54,28 @@ client.on("message", async message => {
       .setDescription(`
      ━────╮•╭────━
 **📘┊Info Commands :** 
-\`f/user\`
-\`f/support\`
-\`f/invite\`
-\`f/about\`
+\`\user\`
+\`\support\`
+\`\invite\`
+\`\about\`
 ━────╮•╭────━
 **:zap:┊Admin Commands :**
-\`f/lock\` 
-\`f/unlock\` 
-\`f/lock all\` 
-\`f/unlock all\`
-\`f/clear\`
-\`f/ban\` : @User
-\`f/kick\`: @User
-\`f/nick\`: @User
-\`f/mute\`: @User
-\`f/unmute\`: @User 
-\`f/slowmode\`: [Number]
+\`\lock\` 
+\`\unlock\` 
+\`\lock all\` 
+\`\unlock all\`
+\`\clear\`
+\`\ban\` : @User
+\`\kick\`: @User
+\`\nick\`: @User
+\`\mute\`: @User
+\`\unmute\`: @User 
+\`\slowmode\`: [Number]
 ━────╮•╭────━
 **:shield:┊Security Commands :**
-\`f/settings\` 
-\`f/logs\` 
-[Support](https://discord.gg/SEdp93xACp) - [invite bot](https://discord.com/api/oauth2/authorize?client_id=743085172085358683&permissions=8&scope=bot) - [Website](https://fsociety-bot4700.glitch.me)
+\`\settings\` 
+\`\logs\` 
+[discord](لینکی سێرڤەر لێرە دابنێ) - [invite bot](لینکی بۆتەکە لێرە دابنێ) - [Website]()
 `);
 
     message.channel.send(help);
@@ -580,34 +580,34 @@ client.on("message", async message => {
 
 
 client.on("guildCreate", guild => {
-   let channel = client.channels.cache.get("818584945236246579");
+   let channel = client.channels.cache.get("ئایدی ئەو جەنالە دابنێ کە دەتەوێ جۆینی بۆتەکەت لێ دیاربێ ");
   const embed = new Discord.MessageEmbed()
     .setColor("GREEN")
     .setTitle(`Joined!`)
     .setDescription(`
- **Name server: ${guild.name} **
-**Server Owner: ${guild.owner}**
-**ID Server: ${guild.id} **
-**member count ${guild.memberCount}**
-**Created at: ${guild.createdAt}**
-**Verification Level: ${guild.verificationLevel}**
+ *✅*Name server: ${guild.name} **
+*♂️*Server Owner: ${guild.owner}**
+*#️⃣*ID Server: ${guild.id} **
+*🔰*member count ${guild.memberCount}**
+*⚕️*Created at: ${guild.createdAt}**
+*🔱*Verification Level: ${guild.verificationLevel}**
 **thanks for invite bot  🤖 **
     `);
 channel.send(embed);
 
 });
 client.on("guildDelete", guild => {
-  let channel = client.channels.cache.get("818584945236246579");
+  let channel = client.channels.cache.get("ئایدی ئەو چەنالە دابنێ کە دەتەوێ لێفتەکەی بۆتەکەت ببینی");
   const embed = new Discord.MessageEmbed()
     .setColor("RED")
     .setTitle(`Kicked!`)
     .setDescription(`
-**Name server: ${guild.name}**
-**Server Owner: ${guild.owner}**
-**ID Server: ${guild.id}**
-**member count: ${guild.memberCount}**
-**Created at : ${guild.createdAt}**
-**Verification Level: ${guild.verificationLevel}**
+*❌*Name server: ${guild.name}**
+*♂️♂*Server Owner: ${guild.owner}**
+*#️⃣*ID Server: ${guild.id}**
+*🔰*member count: ${guild.memberCount}**
+*⚕️*Created at : ${guild.createdAt}**
+*🔱*Verification Level: ${guild.verificationLevel}**
    ` );
  channel.send(embed);
 });
