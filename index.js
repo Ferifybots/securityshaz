@@ -8,7 +8,7 @@ client.on("ready", async () => {
   console.log(`${client.guilds.cache.size} Servers .`);
   console.log(`${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)} Users .`);
  client.user.setStatus("invisible")
-  client.user.setActivity("f/help |Fsociety Is Here", {
+  client.user.setActivity("XALA 7AMA", {
     type: "PLAYING"
   });
 });
@@ -26,7 +26,7 @@ const Discord = require('discord.js')
 const cooldown = new Set();
 const cdtime = 10;
 
- const prefix = "f/";
+ const prefix = "لێرە پریفێکس دابنێ بەم شێوانە s/help";
 client.on("message", async message => {
   if (message.content.startsWith(prefix+"help")) {
    if (!message.channel.guild)
@@ -648,4 +648,4 @@ client.on("message", msg => {
     msg.channel.send("🔓 | All Channels Unlocked");
   }
 });
-client.login("");
+client.login("تــۆکـــیــنــی بــۆت لــێــرە دابـــنـــێ");
